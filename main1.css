@@ -259,16 +259,41 @@ margin: 5px;
 
 #submenu {
     display: flex;
+    flex-direction: row;
     list-style: none;
     width: 100%;
     justify-content: space-around;
 }
 
+th{
+    padding: 15px;
+    background-color: rgb(204, 203,206);
+    margin: 25px;
+}
+
+h5{
+    color: #F15A29;
+    font-size: 20px;
+}
+#fast{
+    color: #F15A29;
+    background-color: white;
+}
+
+
+
 
 .fastFoodli {
-    display: flex;
+    /* display: flex;
     list-style-type: none;
-    justify-content: space-around;
+    justify-content: space-around;*/
+width: 100%;
+border-collapse:collapse ;
+
+}
+ 
+.fastFoodli tr th{
+    border-right: 0.1px solid rgb(175, 173, 174);
 }
 
 
@@ -326,11 +351,11 @@ input[type=submit] {
 }
 
 .menu1 {
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .menu-restaurant {
-    font-size: x-small;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -355,19 +380,19 @@ input[type=submit] {
 
 .customers {
     border: 1px solid grey;
-    font-size: x-small;
+    font-size: 15px;
     padding: 10px;
     text-align: center;
-    height: 150px;
+    height: 200px;
     width: 500px;
 }
 
 .about-menu {
     border: 1px solid grey;
-    font-size: x-small;
+    font-size: 15px;
     padding: 10px;
     text-align: center;
-    height: 150px;
+    height: 200px;
     width: 300px;
 }
 
