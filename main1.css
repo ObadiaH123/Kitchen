@@ -6,7 +6,7 @@ body{
     margin: auto;
 }
 
-span {
+#lines{
   color: whitesmoke;
   float: left;
 }
