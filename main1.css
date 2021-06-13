@@ -41,26 +41,7 @@ margin: 5px;
     color: white;
     font-size: large;
 }
-/* .top {
-    margin-top: 0px;
-    text-align: center;
-    background-color: #F15A29;
-    color: white;
-    font-size: x-large;
-    background-image: url('./Assets/landing.jpg');
-    background-size: cover;
-    position: relative;
-    bottom: -50px;
-    top: -70px;
-} */
 
-/* #top-meals {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    position: relative;
-    right: 80px;
-} */
 .happy-party {
     font-size: medium;
 }
@@ -106,17 +87,6 @@ margin: 5px;
      
 } 
 
-/* .meals{
-    width: 25%;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    background-size: 100% 100%;
-    display: flex;
-    color: white;
-    font-style: italic;
-    font-size: xx-large;
-  } */
 
 .breakfast {
     color: white;
@@ -199,11 +169,7 @@ margin: 5px;
     border: solid white 10px;
   }
   
-  /* .drinks img{
-    max-width: 100%;
-    max-height: 100%;
-  }
-   */
+
   #food1,#food2{
     margin: 5px 0 5px 0;
     -webkit-margin-collapse: collapse;
@@ -297,9 +263,6 @@ h5{
 
 
 .fastFoodli {
-    /* display: flex;
-    list-style-type: none;
-    justify-content: space-around;*/
 width: 100%;
 border-collapse:collapse ;
 
@@ -408,71 +371,3 @@ input[type=submit] {
     height: 200px;
     width: 300px;
 }
-
-/*  
-.main {
-    background-color: white;
-    flex-direction: column;
-}
-
-#first-food {
-    font-size: x-large;
-}
-
-.drinks-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    margin-top: 20px;
-    border: 0.5px solid darkgray;
-    padding: 10px;
-}
-
-.food-images {
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    margin-top: 20px;
-    border: 0.5px solid darkgray;
-    padding: 10px;
-}
-
-.real-food {
-    position: relative;
-    top: -40px;
-    left: 110px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin-bottom: 30px;
-    
-}
-
-.real-food-words {
-    height: 150px;
-    width: 380px;
-    padding-left: 30px;
-    text-align: center;
-}
-#second-food {
-    font-size: x-large;
-    float: left;
-}
-
-
-.drinks {
-    position: relative;
-    top: -40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    left: 110px;
-    text-align: right;
-    margin-right: 20px;
-}
-
-.drinks-words {
-    height: 130px;
-    width: 350px;
-    padding-right: 30px;
-}  */
