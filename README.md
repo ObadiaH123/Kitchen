@@ -1,15 +1,14 @@
 # {Anita's kitchen website}
-#### {this is a web application, it displays the food made by Anita's Kitchen. }, {Date of current version}
-#### By **{List of contributors}**
+#### {this is a web application, it displays the food made by Anita's Kitchen. }, {Developed on 13th June 2021. Version 2.0}
+#### By **{Benard Bett}**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{I developed it using html and css. All the project files are in Assets folder.To set up the project in your machine, clone it and save in your preffered folder. then open the index.html file with your preffered browser(Chrome or Firefox).}
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
+* Laptop or Desktop
+* Clone the project and save in your preffered folder
+* run the index.html file in your browser
 * easy-to-understand
 * format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 ## Technologies Used
