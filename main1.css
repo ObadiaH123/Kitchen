@@ -284,7 +284,7 @@ border-collapse:collapse ;
 }
 
 
-.our-happy {
+.happy {
     color: #F15A29;
 }
 
@@ -296,6 +296,7 @@ border-collapse:collapse ;
 .about-statements {
     display: flex;
     float: right;
+    
 }
 
 .banner1{
@@ -357,10 +358,10 @@ input[type=submit] {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
-    position: relative;
+    /* position: relative; */
     left: 100px;
     top: 15px;
-    margin-left: 30%;
+    margin-left: 20%;
     width: 1000px;
     /* background-color: lawngreen; */
 
@@ -381,5 +382,5 @@ input[type=submit] {
     padding: 10px;
     text-align: center;
     height: 200px;
-    width: 300px;
+    width: 400px;
 }
