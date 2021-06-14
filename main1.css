@@ -339,6 +339,7 @@ input[type=submit] {
 
 .menu1 {
     font-size: 20px;
+    text-size-adjust: 20px;
 }
 
 .menu-restaurant {
@@ -360,7 +361,7 @@ input[type=submit] {
     left: 100px;
     top: 15px;
     margin-left: 30%;
-    width: 800px;
+    width: 1000px;
     /* background-color: lawngreen; */
 
 }
@@ -371,7 +372,7 @@ input[type=submit] {
     padding: 10px;
     text-align: center;
     height: 200px;
-    width: 500px;
+    width: 700px;
 }
 
 .about-menu {
