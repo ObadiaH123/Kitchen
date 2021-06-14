@@ -298,7 +298,7 @@ border-collapse:collapse ;
     float: right;
 }
 
-.bottom {
+.banner1{
     background-color: #F15A29;
 }
 
@@ -347,7 +347,7 @@ input[type=submit] {
     text-align: center;
 }
 
-.lower {
+.banner2{
     position: relative;
     top: 30px;
     height: 200px;
