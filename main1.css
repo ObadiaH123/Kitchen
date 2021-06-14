@@ -44,22 +44,23 @@ margin: 5px;
 
 .happy-party {
     font-size: medium;
+    width: 25%;
 }
 
 
 .top-meals {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     top: 0px;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: baseline;
-    width: 25%;
+    width: 100%
     
 } 
 
 .happy-hour {
-    height: 60px;
-    width: 200px;
+    height: 75px;
+    
     color: black;
     background-color: gainsboro;
     box-sizing: border-box;
@@ -68,8 +69,8 @@ margin: 5px;
 }
 
 .party-time {
-    height: 60px;
-    width: 200px;
+    height: 75px;
+    
     color: white;
     background-color: #F15A29;
     box-sizing: border-box;
@@ -77,7 +78,7 @@ margin: 5px;
     text-align: center;
 }
 
-.menu{
+/*.menu{
     position: relative;
     display: flex;
     flex-direction: row;
@@ -85,31 +86,32 @@ margin: 5px;
     background-size: 100% 100%;
     height: 200px;
      
-} 
+} */
 
 
 .breakfast {
     color: white;
     font-size: medium;
     height: 100px;
-    width: 200px;
+    width: 25%;
     padding-top: 50px;
     background-image: url('./Assets/breakfast.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
     text-align: center;
+
 }
 
 .lunch {
     color: white;
     font-size: medium;
     height: 100px;
-    width: 200px;
+    width: 25%;
     padding-top: 50px;
     background-image: url('./Assets/lunch.jpg');
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
     opacity: 0.4;
     
 }
@@ -118,12 +120,12 @@ margin: 5px;
     color: white;
     font-size: medium;
     height: 100px;
-    width: 200px;
+    width: 25%;
     padding-top: 50px;
     background-image: url('./Assets/dinner.jpg');
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
 }
 
 .contentfood{
@@ -134,7 +136,7 @@ margin: 5px;
     justify-content: space-evenly;
   }
   
-  .contentdrinks{
+  .content-drinks{
     display: flex;
     width: 100%;
     margin: auto;
@@ -142,7 +144,7 @@ margin: 5px;
     justify-content: space-evenly;
   }
   
-  .fastfood{
+  .fast-food{
     flex-direction: column;
     height: 80%;
     width: 30%;
@@ -157,6 +159,7 @@ margin: 5px;
     max-width: 100%;
     max-height: 100%;
     display: block;
+    
   }
   
   .drinks{
@@ -166,21 +169,25 @@ margin: 5px;
     justify-content: space-between;
     align-items: center;
     float: left;
-    border: solid white 10px;
+    
+    margin-top: 30px;
+
   }
   
 
-  #food1,#food2{
-    margin: 5px 0 5px 0;
-    -webkit-margin-collapse: collapse;
+  #food1{
+    
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px 5px grey;
   }
   
-  #dr1,#dr2{
-    margin: 5px 0 5px 0;
-    -webkit-margin-collapse: collapse;
+  #dr1{
+    border: 10px solid white;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px grey;
   }
 
-  .fastfoodtxt{
+  .fastfoodtext{
     height: 300px;
     width: 300px;
     margin-left: 20px;
@@ -203,10 +210,11 @@ margin: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 20px;
     margin: 4px 4px;
     cursor: pointer;
     border-radius: 4px;
+    margin-bottom: 40px;
 }
 
   #foodsBg {
@@ -219,7 +227,7 @@ margin: 5px;
     box-sizing: border;
     display: flex;
     height: 100%;
-    margin-top: 10px;
+    margin-top: 80px;
     align-items: center;
     flex-direction: column;
 }
@@ -261,7 +269,7 @@ h5{
 
 .cust{
     color: #F15A29;
-    font-size: 20;
+    font-size: 40px;
 }
 
 
@@ -344,7 +352,7 @@ input[type=submit] {
     height: 200px;
 }
 
-.customers-about {
+.about-customers {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
