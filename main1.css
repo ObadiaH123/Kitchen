@@ -6,6 +6,17 @@ body{
     margin: auto;
 }
 
+#lines{
+  color: whitesmoke;
+  float: left;
+}
+.icon {
+    text-align: left;
+    position: relative;
+    left: 50px;
+    color: white;
+    font-size: large;
+}
 #header{
     text-align: center;
     font-size: 34px;
@@ -14,7 +25,7 @@ body{
     background-size: cover;
     height: 550px;  
     color: white;
-  padding-top: 200px;
+  /* padding-top: 200px; */
     justify-content: center;
    font-weight: 100;
 flex-direction: column;
@@ -30,44 +41,26 @@ margin: 5px;
     color: white;
     font-size: large;
 }
-/* .top {
-    margin-top: 0px;
-    text-align: center;
-    background-color: #F15A29;
-    color: white;
-    font-size: x-large;
-    background-image: url('./Assets/landing.jpg');
-    background-size: cover;
-    position: relative;
-    bottom: -50px;
-    top: -70px;
-} */
 
-/* #top-meals {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    position: relative;
-    right: 80px;
-} */
 .happy-party {
     font-size: medium;
+    width: 25%;
 }
 
 
 .top-meals {
-    position: relative;
+    /*position: relative;*/
     display: flex;
     top: 0px;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: baseline;
-    width: 25%;
+    width: 100%
     
 } 
 
 .happy-hour {
-    height: 60px;
-    width: 200px;
+    height: 75px;
+    
     color: black;
     background-color: gainsboro;
     box-sizing: border-box;
@@ -76,8 +69,8 @@ margin: 5px;
 }
 
 .party-time {
-    height: 60px;
-    width: 200px;
+    height: 75px;
+    
     color: white;
     background-color: #F15A29;
     box-sizing: border-box;
@@ -85,7 +78,7 @@ margin: 5px;
     text-align: center;
 }
 
-.menu{
+/*.menu{
     position: relative;
     display: flex;
     flex-direction: row;
@@ -93,42 +86,32 @@ margin: 5px;
     background-size: 100% 100%;
     height: 200px;
      
-} 
+} */
 
-/* .meals{
-    width: 25%;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    background-size: 100% 100%;
-    display: flex;
-    color: white;
-    font-style: italic;
-    font-size: xx-large;
-  } */
 
 .breakfast {
     color: white;
     font-size: medium;
     height: 100px;
-    width: 200px;
+    width: 25%;
     padding-top: 50px;
     background-image: url('./Assets/breakfast.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
     text-align: center;
+
 }
 
 .lunch {
     color: white;
     font-size: medium;
     height: 100px;
-    width: 200px;
+    width: 25%;
     padding-top: 50px;
     background-image: url('./Assets/lunch.jpg');
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
     opacity: 0.4;
     
 }
@@ -137,12 +120,12 @@ margin: 5px;
     color: white;
     font-size: medium;
     height: 100px;
-    width: 200px;
+    width: 25%;
     padding-top: 50px;
     background-image: url('./Assets/dinner.jpg');
     text-align: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    /* background-size: contain; */
 }
 
 .contentfood{
@@ -153,7 +136,7 @@ margin: 5px;
     justify-content: space-evenly;
   }
   
-  .contentdrinks{
+  .content-drinks{
     display: flex;
     width: 100%;
     margin: auto;
@@ -161,7 +144,7 @@ margin: 5px;
     justify-content: space-evenly;
   }
   
-  .fastfood{
+  .fast-food{
     flex-direction: column;
     height: 80%;
     width: 30%;
@@ -176,6 +159,7 @@ margin: 5px;
     max-width: 100%;
     max-height: 100%;
     display: block;
+    
   }
   
   .drinks{
@@ -185,28 +169,29 @@ margin: 5px;
     justify-content: space-between;
     align-items: center;
     float: left;
-    border: solid white 10px;
+    
+    margin-top: 30px;
+
   }
   
-  /* .drinks img{
-    max-width: 100%;
-    max-height: 100%;
-  }
-   */
-  #food1,#food2{
-    margin: 5px 0 5px 0;
-    -webkit-margin-collapse: collapse;
+
+  #food1{
+    
+    border: 10px solid white;
+    box-shadow: 5px 5px 5px 5px grey;
   }
   
-  #dr1,#dr2{
-    margin: 5px 0 5px 0;
-    -webkit-margin-collapse: collapse;
+  #dr1{
+    border: 10px solid white;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px grey;
   }
 
-  .fastfoodtxt{
+  .fastfoodtext{
     height: 300px;
     width: 300px;
     margin-left: 20px;
+    font-size: 20px;
     
   }
   
@@ -214,6 +199,7 @@ margin: 5px;
     height: 300px;
     width: 300px;
     text-align: right;
+    font-size: 20px;
   }
 
   .button {
@@ -224,10 +210,11 @@ margin: 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 10px;
+    font-size: 20px;
     margin: 4px 4px;
     cursor: pointer;
     border-radius: 4px;
+    margin-bottom: 40px;
 }
 
   #foodsBg {
@@ -240,7 +227,7 @@ margin: 5px;
     box-sizing: border;
     display: flex;
     height: 100%;
-    margin-top: 10px;
+    margin-top: 80px;
     align-items: center;
     flex-direction: column;
 }
@@ -259,16 +246,41 @@ margin: 5px;
 
 #submenu {
     display: flex;
+    flex-direction: row;
     list-style: none;
     width: 100%;
     justify-content: space-around;
 }
 
+th{
+    padding: 15px;
+    background-color: rgb(204, 203,206);
+    margin: 25px;
+}
+
+h5{
+    color: #F15A29;
+    font-size: 20px;
+}
+#fast{
+    color: #F15A29;
+    background-color: white;
+}
+
+.cust{
+    color: #F15A29;
+    font-size: 40px;
+}
+
 
 .fastFoodli {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
+width: 100%;
+border-collapse:collapse ;
+
+}
+ 
+.fastFoodli tr th{
+    border-right: 0.1px solid rgb(175, 173, 174);
 }
 
 
@@ -326,11 +338,11 @@ input[type=submit] {
 }
 
 .menu1 {
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .menu-restaurant {
-    font-size: x-small;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -340,7 +352,7 @@ input[type=submit] {
     height: 200px;
 }
 
-.customers-about {
+.about-customers {
     display: flex;
     flex-direction: row;
     justify-content: baseline;
@@ -355,86 +367,18 @@ input[type=submit] {
 
 .customers {
     border: 1px solid grey;
-    font-size: x-small;
+    font-size: 15px;
     padding: 10px;
     text-align: center;
-    height: 150px;
+    height: 200px;
     width: 500px;
 }
 
 .about-menu {
     border: 1px solid grey;
-    font-size: x-small;
+    font-size: 15px;
     padding: 10px;
     text-align: center;
-    height: 150px;
+    height: 200px;
     width: 300px;
 }
-
-/*  
-.main {
-    background-color: white;
-    flex-direction: column;
-}
-
-#first-food {
-    font-size: x-large;
-}
-
-.drinks-images {
-    display: flex;
-    flex-direction: row;
-    justify-content: baseline;
-    margin-top: 20px;
-    border: 0.5px solid darkgray;
-    padding: 10px;
-}
-
-.food-images {
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    margin-top: 20px;
-    border: 0.5px solid darkgray;
-    padding: 10px;
-}
-
-.real-food {
-    position: relative;
-    top: -40px;
-    left: 110px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    margin-bottom: 30px;
-    
-}
-
-.real-food-words {
-    height: 150px;
-    width: 380px;
-    padding-left: 30px;
-    text-align: center;
-}
-#second-food {
-    font-size: x-large;
-    float: left;
-}
-
-
-.drinks {
-    position: relative;
-    top: -40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    left: 110px;
-    text-align: right;
-    margin-right: 20px;
-}
-
-.drinks-words {
-    height: 130px;
-    width: 350px;
-    padding-right: 30px;
-}  */
