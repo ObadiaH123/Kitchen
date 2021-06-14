@@ -10,11 +10,11 @@
 * easy-to-understand
 * format
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+{There are issues that hasn't been resolved like creating forms for customers and also the database to store data entered by customers }
 ## Technologies Used
 {i used HTML and CSS to build this website. NO database}
 ## Support and contact details
-{For more information and errors write email to benard.bett@moringachool.com}
+{For more information and errors write email to benard.bett@moringaschool.com}
 ### License
 *{Determine the license under which this application can be used.  See below for more details on licensing.}*
 Copyright (c) {2021} **{List of contributors or company name}**
